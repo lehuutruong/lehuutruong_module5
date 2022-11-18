@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a8b54c-3d4c-454d-a41f-a926cde86a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/createFacility.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/editFacility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/listFacility.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668744922711</updated>
-      <workItem from="1668744923911" duration="6335000" />
+      <workItem from="1668744923911" duration="10602000" />
     </task>
     <servers />
   </component>
@@ -80,7 +79,6 @@
     <option name="version" value="2" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" />
       </list>
     </option>
