@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a8b54c-3d4c-454d-a41f-a926cde86a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/editCustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/listCustomer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
@@ -50,7 +52,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pratice/declare_and_use_variables" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +74,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668744922711</updated>
-      <workItem from="1668744923911" duration="10602000" />
+      <workItem from="1668744923911" duration="10884000" />
+      <workItem from="1668765394080" duration="695000" />
+      <workItem from="1668867053394" duration="407000" />
     </task>
     <servers />
   </component>
@@ -93,6 +98,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668756046873">
