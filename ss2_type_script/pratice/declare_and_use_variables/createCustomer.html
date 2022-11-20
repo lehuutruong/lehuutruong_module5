@@ -1,0 +1,396 @@
+<html>
+<head>
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+
+        :root {
+            --white-color: #fff;
+            --black-color: #000;
+            --text-color: #333;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            line-height: 1.6rem;
+            font-family: "Times New Roman";
+            box-sizing: border-box;
+        }
+
+        .grid {
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            height: 90px;
+            display: flex;
+            align-items: center;
+            background-color: #4285F4;
+        }
+
+        .header__navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header__navbar-list {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header__navbar-list form {
+            margin: 0;
+        }
+
+        .header__navbar-item {
+            margin: 0 12px;
+            position: relative;
+            min-height: 26px;
+        }
+
+        .header__navbar-item--has-notify:hover .header__notify {
+            display: block;
+        }
+
+        .header__navbar-item, .header__navbar-item-link {
+            font-size: 2.2rem;
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+        }
+
+        .header__navbar-item, .header__navbar-item-link, .header__navbar-icon {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .header__navbar-item--strong {
+            font-weight: 400;
+        }
+
+        .header__navbar-item:hover,
+        .header__navbar-item-link:hover {
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .header__navbar-icon-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header__navbar-icon {
+            font-size: 1.8rem;
+            margin: 0 10px;
+        }
+
+        .header__notify {
+            position: absolute;
+            top: 100%;
+            width: 400px;
+            left: 0;
+            background-color: lightgray;
+            border: 1px solid gray;
+            transform-origin: top left;
+            animation: headerNotifyGrowth ease-in 0.23s;
+            display: none;
+        }
+
+        @keyframes headerNotifyGrowth {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+
+        .header__notify-header {
+            height: 40px;
+            background-color: white;
+
+        }
+
+        .header__notify-header h3 {
+            color: #888;
+            margin: 0 0 0 12px;
+            width: 200px;
+            font-size: 2rem;
+            line-height: 40px;
+        }
+
+        .header__notify-list {
+            padding-left: 0;
+
+        }
+
+        .header__notify-item {
+            display: flex;
+        }
+
+        .header__notify-item:hover {
+            background-color: #4CAF50;
+        }
+
+        .header__notify-info {
+            margin-left: 1.2rem;
+        }
+
+        .header__notify-name {
+            display: block;
+            font-size: 1.7rem;
+            color: black;
+            text-decoration: blink;
+
+        }
+
+        .content {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://cdn.mos.cms.futurecdn.net/3WcZUWAMGTpTqjkZhjof64.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .footer {
+            font-size: 20px;
+            color: black;
+            margin-left: 0;
+            position: absolute;
+            top: 750px;
+            left: 500px;
+        }
+        label{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--separate">
+                                <img src="https://t3.ftcdn.net/jpg/03/77/46/78/360_F_377467858_XhOlZpOL9j2tiiJP43qFPXZNa8rGyslL.jpg"
+                                     style="height: 70px;width: 70px;border: solid black 0.2px">
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--has-notify"><a href=""
+                                                                                               class="header__navbar-item-link">Employee</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Computers list</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item">
+                                            <a href="/employee?action=" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Employee List</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="/employee?action=add" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Add Employee</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="/employee?action=edit" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Edit Employee</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Delete Employee</span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--has-notify"><a href=""
+                                                                                               class="header__navbar-item-link">
+                                Contract</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Computers list</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__navbar-item header__navbar-item--has-notify"><a
+                                                href="/contract"
+                                                class="header__navbar-item-link">
+                                            Contract</a>
+
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Customer List</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Add Customer</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Edit Customer</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Delete Customer</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--has-notify"><a href=""
+                                                                                               class="header__navbar-item-link">Facility</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Accessories list</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item">
+                                            <a href="/facility?nameSearch=Villa" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Villa</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="/facility?nameSearch=House" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">House</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="/facility?nameSearch=Room" class="header__notify-link">
+                                                <div class="header__notify-info"><span
+                                                        class="header__notify-name">Room</span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--has-notify"><a href="/customer"
+                                                                                               class="header__navbar-item-link">
+                                Customer</a>
+
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list" style="margin-right: 120px">
+                            <li>
+                                <form class="d-flex">
+                                    <input style="width: 200px;height: 40px;font-size: 15px;border: solid black 0.2px"
+                                           class="form-control me-2" type="search"
+                                           placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-primary"
+                                            style="color: white;background-color: blueviolet;width: 70px;font-size: 15px;border: solid black 0.2px"
+                                            type="submit">Search
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                        <ul style="list-style: none">
+                            <li><i class="fa-solid fa-users"
+                                   style="font-size: 30px;color: white;margin-right: 85px;margin-top: 15px;"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="container col-lg-7" >
+        <form>
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="inputEmail4">Name</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="inputPassword4">Type</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Type">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Area</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Price</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Price">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Number People</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Type Rental</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Day</option>
+                        <option>Month</option>
+                        <option>Year</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="font-size: 12px">Create</button>
+            <button type="submit" class="btn btn-primary" style="font-size: 12px">Cancel</button>
+        </form>
+    </div>
+</div>
+<div class="row col=lg-12" style="height: 30px;width:100%;background-color: #183153;color: white"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/68540fcb59.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
