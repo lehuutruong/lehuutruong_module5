@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a8b54c-3d4c-454d-a41f-a926cde86a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/editCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/listCustomer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
@@ -77,6 +75,8 @@
       <workItem from="1668744923911" duration="10884000" />
       <workItem from="1668765394080" duration="695000" />
       <workItem from="1668867053394" duration="525000" />
+      <workItem from="1669001088956" duration="407000" />
+      <workItem from="1669001551689" duration="5211000" />
     </task>
     <servers />
   </component>

@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef9247d-7ff0-4dd7-9f3c-a49cad1b734d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/createContract.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listContract.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -86,6 +83,10 @@
       <workItem from="1668765369087" duration="618000" />
       <workItem from="1668867169134" duration="413000" />
       <workItem from="1668946596478" duration="391000" />
+      <workItem from="1668949348407" duration="595000" />
+      <workItem from="1668991559997" duration="2143000" />
+      <workItem from="1669001534528" duration="18000" />
+      <workItem from="1669006034537" duration="910000" />
     </task>
     <servers />
   </component>
@@ -113,10 +114,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1668660026278" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668765388585">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1669001546747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668765388585" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1669001546747" />
     <state x="65" y="47" key="new project wizard" timestamp="1668744457000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
