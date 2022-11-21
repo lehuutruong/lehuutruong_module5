@@ -24,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,14 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\prettier" />
     <property name="ts.external.directory.path" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\typescript\lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,7 +85,8 @@
       <workItem from="1668765394080" duration="695000" />
       <workItem from="1668867053394" duration="525000" />
       <workItem from="1669001088956" duration="407000" />
-      <workItem from="1669001551689" duration="5211000" />
+      <workItem from="1669001551689" duration="12569000" />
+      <workItem from="1669019922533" duration="25000" />
     </task>
     <servers />
   </component>
@@ -101,6 +111,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1669013269895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1669013269895" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1668756046873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

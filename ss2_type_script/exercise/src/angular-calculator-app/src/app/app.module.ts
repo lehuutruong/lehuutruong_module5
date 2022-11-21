@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import {FormsModule} from "@angular/forms";
 import { ColorComponent } from './color/color.component';
+import { HomeCaseStudyComponent } from './home-case-study/home-case-study.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalculatorComponent,
-    ColorComponent
+    ColorComponent,
+    HomeCaseStudyComponent
   ],
   imports: [
     BrowserModule,
