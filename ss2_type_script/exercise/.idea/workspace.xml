@@ -23,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +63,12 @@
     <property name="ts.external.directory.path" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\article" />
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -85,6 +87,8 @@
       <workItem from="1669001088956" duration="407000" />
       <workItem from="1669001551689" duration="12569000" />
       <workItem from="1669019922533" duration="25000" />
+      <workItem from="1669042540962" duration="6848000" />
+      <workItem from="1669078430654" duration="17476000" />
     </task>
     <servers />
   </component>

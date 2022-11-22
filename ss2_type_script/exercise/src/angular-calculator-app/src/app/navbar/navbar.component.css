@@ -55,9 +55,7 @@ html {
 .header__navbar-item--has-notify:hover .header__notify {
   display: block;
 }
-.header__navbar-item--has-notifyy:hover .cart {
-  display: block;
-}
+
 .header__navbar-item, .header__navbar-item-link {
   font-size: 1.3rem;
   color: black;
@@ -91,31 +89,17 @@ html {
 }
 
 .header__notify {
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.35);
-  border: none;
   position: absolute;
   top: 100%;
-  width: 300px;
+  width: 400px;
   left: 0;
-  background-color: white;
+  background-color: lightgray;
+  border: 1px solid gray;
   transform-origin: top left;
   animation: headerNotifyGrowth ease-in 0.23s;
   display: none;
 }
-.cart {
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.35);
-  border: none;
-  border-radius: 3px;
-  position: absolute;
-  top: 99%;
-  width: 200px;
-  right: 0;
-  padding: 24px 12px;
-  background-color: white;
-  transform-origin: top right;
-  animation: headerNotifyGrowth ease-in 0.23s;
-  display: none;
-}
+
 @keyframes headerNotifyGrowth {
   from {
     transform: scale(0);

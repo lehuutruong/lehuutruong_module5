@@ -23,11 +23,9 @@
       <change beforePath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/calculator/calculator.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/calculator/calculator.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/color/color.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/color/color.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/color/color.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/color/color.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/home-case-study/home-case-study.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/home-case-study/home-case-study.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/home-case-study/home-case-study.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/home-case-study/home-case-study.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,8 @@
       <workItem from="1669006034537" duration="3645000" />
       <workItem from="1669017273548" duration="7000" />
       <workItem from="1669019886384" duration="241000" />
+      <workItem from="1669045091537" duration="141000" />
+      <workItem from="1669105262345" duration="2495000" />
     </task>
     <servers />
   </component>
