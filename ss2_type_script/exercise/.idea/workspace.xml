@@ -60,6 +60,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -89,6 +90,9 @@
       <workItem from="1669019922533" duration="25000" />
       <workItem from="1669042540962" duration="6848000" />
       <workItem from="1669078430654" duration="17476000" />
+      <workItem from="1669126047741" duration="1019000" />
+      <workItem from="1669173997328" duration="3201000" />
+      <workItem from="1669191819135" duration="6000" />
     </task>
     <servers />
   </component>
@@ -121,5 +125,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668756046873" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1669126473485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1669126473485" />
   </component>
 </project>

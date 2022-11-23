@@ -12,6 +12,9 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ListFacilityComponent } from './list-facility/list-facility.component';
 import { EditFacilityComponent } from './edit-facility/edit-facility.component';
+import { RatingBarComponent } from './rating-bar/rating-bar.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { EditFacilityComponent } from './edit-facility/edit-facility.component';
     FooterComponent,
     NavbarComponent,
     ListFacilityComponent,
-    EditFacilityComponent
+    EditFacilityComponent,
+    RatingBarComponent,
+    CountdownTimerComponent
   ],
   imports: [
     BrowserModule,
