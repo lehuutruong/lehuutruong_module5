@@ -14,6 +14,8 @@ import { ListFacilityComponent } from './list-facility/list-facility.component';
 import { EditFacilityComponent } from './edit-facility/edit-facility.component';
 import { RatingBarComponent } from './rating-bar/rating-bar.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { CreateFacilityComponent } from './create-facility/create-facility.component';
+import { ListCustomerComponent } from './list-customer/list-customer.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
     ListFacilityComponent,
     EditFacilityComponent,
     RatingBarComponent,
-    CountdownTimerComponent
+    CountdownTimerComponent,
+    CreateFacilityComponent,
+    ListCustomerComponent
   ],
   imports: [
     BrowserModule,

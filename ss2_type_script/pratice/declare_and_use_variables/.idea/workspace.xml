@@ -22,7 +22,7 @@
     <list default="true" id="1ef9247d-7ff0-4dd7-9f3c-a49cad1b734d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/src/angular-calculator-app/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1669105262345" duration="2495000" />
       <workItem from="1669125701031" duration="312000" />
       <workItem from="1669185451471" duration="975000" />
+      <workItem from="1669194725133" duration="255000" />
     </task>
     <servers />
   </component>
