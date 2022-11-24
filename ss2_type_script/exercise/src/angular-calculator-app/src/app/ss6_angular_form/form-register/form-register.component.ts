@@ -1,6 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-
+import {AbstractControl, FormBuilder, FormGroup, ValidationErrors, ValidatorFn, Validators} from "@angular/forms";
+export const reConfirmPass: ValidatorFn = (control: AbstractControl): ValidationErrors | null => {
+  const passWord = control.get("password");
+  const confirmPassword = control.get("confirmPassword");
+  if (passWord && confirmPassword && passWord.touched && passWord.value != confirmPassword.value) {
+    return {"reConfirmPassValidName": true};
+  } else {
+    return null;
+  }
+}
 @Component({
   selector: 'app-form-register',
   templateUrl: './form-register.component.html',
@@ -19,7 +27,7 @@ export class FormRegisterComponent implements OnInit {
        age:['',[Validators.required,Validators.min(18)]],
        gender:['',[Validators.required]],
        phone:['',[Validators.required,Validators.pattern('^\\+84\\d{9,10}$')]]
-     })
+     }, {validators: reConfirmPass})
   }
 
   onSubmit() {

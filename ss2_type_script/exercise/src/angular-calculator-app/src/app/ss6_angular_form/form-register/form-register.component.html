@@ -37,9 +37,9 @@
         </div>
         <div class="form-outline mb-4">
           <input formControlName="confirmPassword" type="password" id="form2Example8" class="form-control"
-                 [ngClass]="rsFormRegister.controls['confirmPassword'].invalid ? 'is-invalid':'is-valid'">
+                 [ngClass]="rsFormRegister.errors?.reConfirmPassValidName ? 'is-invalid': 'is-valid'">
           <div class="invalid-feedback">
-            <div *ngIf="rsFormRegister.controls['confirmPassword'].errors.required && (rsFormRegister.controls['confirmPassword'].touched)">
+            <div *ngIf="rsFormRegister.controls['confirmPassword'].errors.reConfirmPassValidName && (rsFormRegister.controls['confirmPassword'].touched)">
               Please provide a Password
             </div>
           </div>
