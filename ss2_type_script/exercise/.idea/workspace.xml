@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_type_script/fibonacci.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pratice/declare_and_use_variables/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +63,15 @@
     <property name="ts.external.directory.path" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\ss6_angular_form" />
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\ss5_angular_interaction" />
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\case_study" />
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\article" />
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,6 +95,8 @@
       <workItem from="1669126047741" duration="1019000" />
       <workItem from="1669173997328" duration="3201000" />
       <workItem from="1669191819135" duration="6000" />
+      <workItem from="1669261397504" duration="3163000" />
+      <workItem from="1669264833001" duration="20000" />
     </task>
     <servers />
   </component>
