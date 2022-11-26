@@ -1,0 +1,17 @@
+<div>
+  <h3>Dictionary</h3>
+  <div>
+    <h4>Word Detail</h4>
+    <div *ngIf="wordDetail; else noData">
+      <div>
+        <div>Word: {{wordDetail.english}}</div>
+      </div>
+      <div>
+        <div>Mean: {{wordDetail.vietnam}}</div>
+      </div>
+    </div>
+    <ng-template #noData>
+      <p style="color: red">Not Not</p>
+    </ng-template>
+  </div>
+</div>

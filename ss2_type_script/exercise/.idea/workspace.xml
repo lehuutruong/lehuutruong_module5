@@ -63,15 +63,15 @@
     <property name="ts.external.directory.path" value="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\dictionary-app\src\app\dictionary-service" />
+      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\dictionary-app\src" />
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\ss6_angular_form" />
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\ss5_angular_interaction" />
       <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\case_study" />
-      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src\angular-calculator-app\src\app\article" />
-      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CODEGYM\module5\lehuutruong_module5\ss2_type_script\exercise" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -97,6 +97,10 @@
       <workItem from="1669191819135" duration="6000" />
       <workItem from="1669261397504" duration="3163000" />
       <workItem from="1669264833001" duration="20000" />
+      <workItem from="1669289772859" duration="13000" />
+      <workItem from="1669363702536" duration="4879000" />
+      <workItem from="1669458875260" duration="4813000" />
+      <workItem from="1669464043076" duration="3700000" />
     </task>
     <servers />
   </component>
@@ -121,10 +125,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="42" key="#Inspections" timestamp="1669013269895">
+    <state x="309" y="42" key="#Inspections" timestamp="1669466332322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1669013269895" />
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1669466332322" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1669462581469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1669462581469" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1669196150967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
