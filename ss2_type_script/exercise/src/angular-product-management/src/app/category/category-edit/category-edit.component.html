@@ -1,0 +1,17 @@
+<h1>Update Product</h1>
+<form [formGroup]="categoryForm" *ngIf="categoryForm" (ngSubmit)="updateCategory(id)">
+  <table>
+    <tr>
+      <td>Id Product</td>
+      <td><input type="number" formControlName="id"></td>
+    </tr>
+    <tr>
+      <td>Name Product</td>
+      <td><input type="text" formControlName="name"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button>Update</button></td>
+    </tr>
+  </table>
+</form>

@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup } from '@angular/forms';
-import { ProductService } from 'src/app/service/product.service';
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
+import {ProductService} from 'src/app/service/product.service';
+import {Router} from "@angular/router";
+import {Category} from "../../model/category";
+import {CategoryService} from "../../service/category.service";
 
 @Component({
   selector: 'app-product-create',
@@ -8,19 +11,32 @@ import { ProductService } from 'src/app/service/product.service';
   styleUrls: ['./product-create.component.css']
 })
 export class ProductCreateComponent implements OnInit {
-  productForm: FormGroup = new FormGroup({
-    id: new FormControl(),
-    name: new FormControl(),
-    price: new FormControl(),
-    description: new FormControl(),
-  });
-  constructor(private productService: ProductService) { }
+  productForm: FormGroup;
+  categoryList: Category[] | undefined;
+
+  constructor(private productService: ProductService, private _router: Router, private _builder:FormBuilder,private categoryService:CategoryService) {
+  }
 
   ngOnInit(): void {
+    this.categoryService.getAll().subscribe(data=>{
+      // @ts-ignore
+      this.categoryList=data;
+      this.productForm = this._builder.group({
+        id:[],
+        name: [],
+        price: [],
+        category:[],
+        description: []
+      });
+    })
+
   }
+
   submit() {
-    const product = this.productForm.value;
-    this.productService.saveProduct(product);
-    this.productForm.reset();
+    if (this.productForm.valid) {
+      this.productService.saveProduct(this.productForm.value).subscribe(data => {
+        this._router.navigateByUrl("/product/list");
+      })
+    }
   }
 }

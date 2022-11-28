@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup } from '@angular/forms';
-import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
+import {ActivatedRoute, ParamMap, Router} from '@angular/router';
 import {ProductService} from "../../service/product.service";
+import {CategoryService} from "../../service/category.service";
+import { Category } from 'src/app/model/category';
 
 @Component({
   selector: 'app-product-delete',
@@ -11,29 +13,40 @@ import {ProductService} from "../../service/product.service";
 export class ProductDeleteComponent implements OnInit {
   productForm: FormGroup;
   id: number;
-
-  constructor( private _productService:ProductService,
-  private _activatedRoute: ActivatedRoute,
-  private _router: Router) {  this._activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
-    this.id = +paramMap.get('id');
-    const product = this.getProduct(this.id);
-    this.productForm = new FormGroup({
-      id: new FormControl(product.id),
-      name: new FormControl(product.name),
-      price: new FormControl(product.price),
-      description: new FormControl(product.description),
+  categoryList:Category;
+  constructor(private productService: ProductService,
+              private _activatedRoute: ActivatedRoute,
+              private _router: Router,private _builder:FormBuilder,
+              private categoryService:CategoryService) {
+    this._activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
+      this.id = +paramMap.get('id');
+      this.getProduct(this.id);
     });
-  });}
+  }
 
   ngOnInit(): void {
   }
 
   deleteProduct(id: number) {
-    this._productService.deleteProduct(id);
-    this._router.navigate(['/product/list']);
+    const product = this.productForm.value;
+    console.log(product);
+    this.productService.deleteProduct(id).subscribe(data => {
+      this._router.navigateByUrl("product/list")
+    })
   }
 
   private getProduct(id: number) {
-    return this._productService.findById(id);
+    this.categoryService.getAll().subscribe(data=>{
+      this.categoryList=data;
+    })
+    return this.productService.findById(id).subscribe(product => {
+      this.productForm = this._builder.group({
+        id:[product.id],
+        name: [product.name],
+        price: [product.price],
+        category: [product.category],
+        description: [product.description]
+      })
+    });
   }
 }

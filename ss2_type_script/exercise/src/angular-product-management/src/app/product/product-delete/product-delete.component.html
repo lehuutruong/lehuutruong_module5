@@ -14,6 +14,12 @@
       <td><input type="number" formControlName="price"></td>
     </tr>
     <tr>
+      <td>Category</td>
+      <select formControlName="category" >
+        <option *ngFor="let item of categoryList" [ngValue]="item" >{{item.name}}</option>
+      </select>
+    </tr>
+    <tr>
       <td>Description Product</td>
       <td><input type="text" formControlName="description"></td>
     </tr>

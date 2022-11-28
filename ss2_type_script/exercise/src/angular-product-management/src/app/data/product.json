@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "d",
+      "price": 55,
+      "description": "new",
+      "category": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    {
+      "id": 5,
+      "name": "f",
+      "price": 111,
+      "description": "f",
+      "category": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    {
+      "id": 6,
+      "name": "tr",
+      "price": 12,
+      "category": {
+        "id": 2,
+        "name": "samsung"
+      },
+      "description": "tr"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "iphone"
+    },
+    {
+      "id": 2,
+      "name": "samsung"
+    },
+    {
+      "id": 3,
+      "name": "nokia"
+    }
+  ]
+}
