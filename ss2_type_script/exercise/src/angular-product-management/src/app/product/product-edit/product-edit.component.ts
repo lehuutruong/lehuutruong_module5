@@ -24,13 +24,13 @@ export class ProductEditComponent implements OnInit {
               private _router: Router,
               private _builder: FormBuilder,
               private categoryService:CategoryService) {
+  }
+
+  ngOnInit() {
     this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
       this.id = +paramMap.get('id');
       this.getProduct(this.id);
     });
-  }
-
-  ngOnInit() {
   }
 
   getProduct(id: number) {
@@ -48,7 +48,6 @@ export class ProductEditComponent implements OnInit {
     })
 
   }
-
   updateProduct(id: number) {
     const product = this.productForm.value;
     console.log(product);

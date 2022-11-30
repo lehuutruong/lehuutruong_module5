@@ -1,0 +1,58 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "truong",
+      "point": 10,
+      "gender": "male",
+      "class": {
+        "id": 3,
+        "name": "c07"
+      }
+    },
+    {
+      "id": 2,
+      "name": "join",
+      "point": 3,
+      "gender": "female",
+      "class": {
+        "id": 2,
+        "name": "c06"
+      }
+    },
+    {
+      "id": 3,
+      "name": "mae",
+      "point": 5,
+      "gender": "male",
+      "class": {
+        "id": 3,
+        "name": "c07"
+      }
+    },
+    {
+      "id": 5,
+      "name": "truong",
+      "point": 11,
+      "gender": "male",
+      "class": {
+        "id": 3,
+        "name": "c07"
+      }
+    }
+  ],
+  "class": [
+    {
+      "id": 1,
+      "name": "--All--"
+    },
+    {
+      "id": 2,
+      "name": "c06"
+    },
+    {
+      "id": 3,
+      "name": "c07"
+    }
+  ]
+}

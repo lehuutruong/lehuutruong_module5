@@ -1,5 +1,5 @@
 <h1>Delete Product</h1>
-<form [formGroup]="productForm" (ngSubmit)="deleteProduct(id)">
+<form [formGroup]="productForm" *ngIf="productForm" (ngSubmit)="deleteProduct(id)">
   <table>
     <tr>
       <td>Id Product</td>
@@ -15,7 +15,7 @@
     </tr>
     <tr>
       <td>Category</td>
-      <select formControlName="category" >
+      <select formControlName="category"  [compareWith]="equals">
         <option *ngFor="let item of categoryList" [ngValue]="item" >{{item.name}}</option>
       </select>
     </tr>

@@ -1,0 +1,32 @@
+<h1>Update Product</h1>
+<form [formGroup]="studentForm" *ngIf="studentForm" (ngSubmit)="updateStudent(id)">
+  <table>
+    <tr>
+      <td>Id Student</td>
+      <td><input type="number" formControlName="id"></td>
+    </tr>
+    <tr>
+      <td>Name Student</td>
+      <td><input type="text" formControlName="name"></td>
+    </tr>
+    <tr>
+      <td>Point</td>
+      <td><input type="number" formControlName="point"></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><input type="text" formControlName="gender"></td>
+    </tr>
+    <tr>
+      <td>Class</td>
+      <select formControlName="class" [compareWith]="equals">
+        <option *ngFor="let item of classList"  [ngValue]="item" >{{item.name}}</option>
+      </select>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td><button>Update</button></td>
+    </tr>
+  </table>
+</form>
