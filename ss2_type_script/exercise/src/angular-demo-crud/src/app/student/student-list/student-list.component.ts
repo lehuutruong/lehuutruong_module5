@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Student} from "../../model/student";
-import {StudentService} from "../../service/student.service";
-import {ClassService} from "../../service/class.service";
-import {Class} from "../../model/class";
+import {Student} from '../../model/student';
+import {StudentService} from '../../service/student.service';
+import {ClassService} from '../../service/class.service';
+import {Class} from '../../model/class';
 
 @Component({
   selector: 'app-student-list',
@@ -14,9 +14,9 @@ export class StudentListComponent implements OnInit {
   students: Student[] = [];
   classList: Class[] = [];
   name: any;
-  classes: string = '--All--';
+  classes = '--All--';
 
-  constructor(private _studentService: StudentService, private  classService: ClassService) {
+  constructor(private studentService: StudentService, private  classService: ClassService) {
 
   }
 
@@ -26,25 +26,25 @@ export class StudentListComponent implements OnInit {
     this.classService.getAll().subscribe(data => {
       // @ts-ignore
       this.classList = data;
-    })
-    this._studentService.getAll().subscribe(data => {
+    });
+    this.studentService.getAll().subscribe(data => {
       // @ts-ignore
-      this.students = data
+      this.students = data;
     }, error => {
-      console.log("get list product error")
+      console.log('get list product error');
     }, () => {
-      console.log("get list product complete")
-    })
+      console.log('get list product complete');
+    });
 
   }
 
   search() {
-    if (this.name == "" && this.classes == "--All--") {
-      this.ngOnInit()
+    if (this.name === '' && this.classes === '--All--') {
+      this.ngOnInit();
     }
-    this._studentService.searchByNameAndStudent(this.name, this.classes).subscribe(data => {
+    this.studentService.searchByNameAndStudent(this.name, this.classes).subscribe(data => {
       // @ts-ignore
       this.students = data;
-    })
+    });
   }
 }

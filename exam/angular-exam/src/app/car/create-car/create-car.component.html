@@ -1,0 +1,131 @@
+CREATE.HTML
+<h1>Create Product</h1>
+<form [formGroup]="carForm" (ngSubmit)="submit()">
+  <table>
+    <tr>
+      <td width="15%"><label for="input-startPlace" class="form-label">Point Start</label></td>
+      <td width="25%">
+        <input type="text" class="form-control" id="input-startPlace"
+               formControlName="pointStart"
+               [ngClass]="(carForm.controls['pointStart'].touched)?
+                       carForm.controls['pointStart'].invalid?'is-invalid':'is-valid':''">
+      </td>
+      <td width="60%">
+        <div *ngIf="carForm.controls['pointStart'].hasError('required') &&
+                   carForm.controls['pointStart'].touched" style="color: red">
+          Point is not blank
+        </div>
+      </td>
+    </tr>
+    <tr>
+    <tr>
+      <td><label for="input-toPlace" class="form-label">Point end</label></td>
+      <td>
+        <input type="text" class="form-control" id="input-toPlace"
+               formControlName="pointEnd"
+               [ngClass]="(carForm.controls['pointEnd'].touched)?
+                       carForm.controls['pointEnd'].invalid?'is-invalid':'is-valid':''">
+      </td>
+      <td>
+        <div *ngIf="carForm.controls['pointEnd'].hasError('required') &&
+                   carForm.controls['pointEnd'].touched" style="color: red">
+          Point End is not blank
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="input-garage" class="form-label">Company</label></td>
+      <td><select formControlName="home" class="form-control" id="input-garage"
+                  [ngClass]="(carForm.controls['home'].touched)?
+                       carForm.controls['home'].invalid?'is-invalid':'is-valid':''">
+        <option value="">--- Home ---</option>
+        <option *ngFor="let item of homeList" [ngValue]="item">{{item.name}}</option>
+      </select></td>
+      <td>
+        <div *ngIf="carForm.controls['home'].hasError('required') &&
+                   carForm.controls['home'].touched" style="color: red">
+          Home Car is not blank
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="input-startDate" class="form-label">Start Date</label></td>
+      <td><input type="date" class="form-control" id="input-startDate" formControlName="startDate"
+                 [ngClass]="(carForm.controls['startDate'].touched)?
+                       carForm.controls['startDate'].invalid?'is-invalid':'is-valid':''">
+      <td>
+        <div *ngIf="carForm.controls['startDate'].hasError('required') &&
+                   carForm.controls['startDate'].touched" style="color: red">
+         Start Date is not blank
+        </div>
+        <div *ngIf="carForm.controls['startDate'].hasError('pattern') &&
+                   carForm.controls['startDate'].touched" style="color: red">
+          Start Date is right format dd/MM/yyyy
+        </div>
+        <div *ngIf="carForm.controls['startDate'].hasError('invalidStartDate') &&
+                   !carForm.controls['startDate'].hasError('required') &&
+                   carForm.controls['startDate'].touched" style="color: red">
+          The launch date must start from tomorrow.
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="input-startHour" class="form-label">timeDate</label></td>
+      <td><input type="text" class="form-control" id="input-startHour" formControlName="timeDate"
+                 [ngClass]="(carForm.controls['timeDate'].touched)?
+                       carForm.controls['timeDate'].invalid?'is-invalid':'is-valid':''">
+      </td>
+      <td>
+        <div *ngIf="carForm.controls['timeDate'].hasError('required') &&
+                   carForm.controls['timeDate'].touched" style="color: red">
+          Time Date is not blank
+        </div>
+        <div *ngIf="carForm.controls['timeDate'].hasError('pattern') &&
+                   carForm.controls['timeDate'].touched" style="color: red">
+          Time Date hh:mm
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="input-quantity" class="form-label">Quantity</label></td>
+      <td><input type="text" class="form-control" id="input-quantity" formControlName="many"
+                 [ngClass]="(carForm.controls['many'].touched)?
+                       carForm.controls['many'].invalid?'is-invalid':'is-valid':''">
+      </td>
+      <td>
+        <div *ngIf="carForm.controls['many'].hasError('required') &&
+                   carForm.controls['many'].touched" style="color: red">
+          Quantity is not blank
+        </div>
+        <div *ngIf="carForm.controls['many'].hasError('pattern') &&
+                   carForm.controls['many'].touched" style="color: red">
+          Quantity >=0
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="input-price" class="form-label">Price</label></td>
+      <td><input type="text" class="form-control" id="input-price" formControlName="price"
+                 [ngClass]="(carForm.controls['price'].touched)?
+                       carForm.controls['price'].invalid?'is-invalid':'is-valid':''">
+      </td>
+      <td>
+        <div *ngIf="carForm.controls['price'].hasError('required') &&
+                   carForm.controls['price'].touched" style="color: red">
+          Price is not blank
+        </div>
+        <div *ngIf="carForm.controls['price'].hasError('pattern') &&
+                   carForm.controls['price'].touched" style="color: red">
+          price >=0
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+        <button type="submit" class="btn btn-primary" [disabled]="carForm.invalid">Submit</button>
+      </td>
+    </tr>
+  </table>
+</form>

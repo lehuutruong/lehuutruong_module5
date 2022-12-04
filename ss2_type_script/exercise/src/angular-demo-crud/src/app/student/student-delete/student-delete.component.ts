@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {StudentService} from '../../service/student.service';
+import {Router} from '@angular/router';
+import {FormBuilder} from '@angular/forms';
 
 @Component({
   selector: 'app-student-delete',
@@ -7,9 +10,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentDeleteComponent implements OnInit {
 
-  constructor() { }
+  constructor(private studentService: StudentService,
+              private router: Router, private builder: FormBuilder) {
+  }
 
   ngOnInit(): void {
   }
-
 }

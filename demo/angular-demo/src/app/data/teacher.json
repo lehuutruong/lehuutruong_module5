@@ -1,0 +1,74 @@
+{
+  "teacher": [
+    {
+      "id": 1,
+      "name": "join",
+      "point": 7,
+      "dayOfBirth": "2022-11-02",
+      "class": {
+        "id": 1,
+        "name": "c06"
+      }
+    },
+    {
+      "id": 2,
+      "name": "join",
+      "point": 10,
+      "dayOfBirth": "2022-11-19",
+      "class": {
+        "id": 2,
+        "name": "c07"
+      }
+    },
+    {
+      "id": 3,
+      "name": "join",
+      "point": 17,
+      "dayOfBirth": "2022-11-10",
+      "class": {
+        "id": 2,
+        "name": "c07"
+      }
+    },
+    {
+      "id": 4,
+      "name": "uy",
+      "point": 4,
+      "dayOfBirth": "2022-11-12",
+      "class": {
+        "id": 2,
+        "name": "c07"
+      }
+    },
+    {
+      "id": 12,
+      "name": "12",
+      "point": 12,
+      "dayOfBirth": "0031-12-13",
+      "class": {
+        "id": 1,
+        "name": "c06"
+      }
+    },
+    {
+      "id": 7,
+      "name": "12",
+      "point": "12",
+      "dayOfBirth": "0031-12-13",
+      "class": {
+        "id": 2,
+        "name": "c07"
+      }
+    }
+  ],
+  "class": [
+    {
+      "id": 1,
+      "name": "c06"
+    },
+    {
+      "id": 2,
+      "name": "c07"
+    }
+  ]
+}

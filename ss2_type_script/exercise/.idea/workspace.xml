@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a8b54c-3d4c-454d-a41f-a926cde86a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/angular-demo/src/app/data/student.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/angular-demo/src/app/model/class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/angular-demo/src/app/model/student.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/angular-demo-crud/src/app/data/student.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/angular-name-card/src/app/data/todo.json" afterDir="false" />
@@ -116,7 +120,7 @@
       <workItem from="1669692138484" duration="10365000" />
       <workItem from="1669713326263" duration="23000" />
       <workItem from="1669724845972" duration="5983000" />
-      <workItem from="1669769041572" duration="7260000" />
+      <workItem from="1669769041572" duration="10217000" />
     </task>
     <servers />
   </component>
@@ -149,10 +153,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1669462581469" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1669196150967">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1669783011584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1669196150967" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1669783011584" />
     <state width="1345" height="195" key="GridCell.Tab.0.bottom" timestamp="1669717254435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

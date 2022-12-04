@@ -1,0 +1,70 @@
+{
+  "car": [
+    {
+      "id": 1,
+      "price": 111,
+      "pointStart": "Da nang",
+      "pointEnd": "hue",
+      "startDate": "06-09-2021",
+      "timeDate": "20:00",
+      "many": 5,
+      "homeCar": {
+        "id": 1,
+        "name": "phuong trang"
+      }
+    },
+    {
+      "id": 2,
+      "price": 5000,
+      "pointStart": "Da nang",
+      "pointEnd": "hai phong",
+      "startDate": "10-09-2021",
+      "timeDate": "20:00",
+      "many": 9,
+      "homeCar": {
+        "id": 2,
+        "name": "trung nguyen"
+      }
+    },
+    {
+      "id": 3,
+      "price": 3333,
+      "pointStart": "Da nang",
+      "pointEnd": "ha noi",
+      "startDate": "09-10-2021",
+      "timeDate": "20:00",
+      "many": 9,
+      "homeCar": {
+        "id": 3,
+        "name": "trung tin"
+      }
+    },
+    {
+      "price": "1",
+      "many": "1",
+      "pointStart": "1",
+      "pointEnd": "1",
+      "startDate": "2022-12-23",
+      "timeDate": "11:12",
+      "home": {
+        "id": 2,
+        "name": "trung nguyen"
+      },
+      "id": 4
+    }
+  ],
+  "home": [
+    {
+      "id": 1,
+      "name": "phuong trang"
+    },
+    {
+      "id": 2,
+      "name": "trung nguyen"
+    },
+    {
+      "id": 3,
+      "name": "trung tin"
+    }
+  ]
+}

@@ -1,16 +1,6 @@
 {
   "student": [
     {
-      "id": 1,
-      "name": "truong",
-      "point": 10,
-      "gender": "male",
-      "class": {
-        "id": 3,
-        "name": "c07"
-      }
-    },
-    {
       "id": 2,
       "name": "join",
       "point": 3,

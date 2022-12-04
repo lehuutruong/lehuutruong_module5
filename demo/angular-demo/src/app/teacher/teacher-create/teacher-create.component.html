@@ -1,0 +1,46 @@
+<div class="container mt-3">
+  <script src="../../model/class.ts"></script><h1>Create Product</h1>
+  <form *ngIf="teacherForm" [formGroup]="teacherForm" (ngSubmit)="submit()">
+    <table>
+      <td>Id Teacher:</td>
+      <td>
+        <input type="number" formControlName="id">
+      </td>
+      <tr>
+        <td>Name Teacher:</td>
+        <td><input type="text" formControlName="name"
+                   [ngClass]="teacherForm.controls.name.invalid||teacherForm.errors?.areEqual ?'is-invalid':'is-valid'">
+          <div class="invalid-feedback">
+            <div *ngIf="teacherForm.errors?.areEqual">Names cannot be duplicated</div>
+            <div *ngIf="teacherForm.controls.name.errors?.required">Name is not blank</div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Point Teacher:</td>
+        <td><input type="number" formControlName="point"
+                   [ngClass]="teacherForm.controls['point'].invalid?'is-invalid':'is-valid'">
+          <div class="invalid-feedback">
+            <div *ngIf="teacherForm.controls['point'].errors.required">Point is not Blank</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Class:</td>
+        <td>
+          <select formControlName="class">
+            <option *ngFor="let item of classList" [ngValue]="item">{{item.name}}</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+      <tr>
+        <td>Action:</td>
+        <td>
+          <button>Create</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
