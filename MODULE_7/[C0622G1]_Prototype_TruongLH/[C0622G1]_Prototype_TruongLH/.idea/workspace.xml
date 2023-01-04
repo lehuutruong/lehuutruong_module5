@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="638da5fa-dabc-4e59-95a8-1e0434fad4df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../[C0622G1]_Prototype_TruongLH.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../[C0622G1]_Prototype_TruongLH.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/Zay.Shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/pet_shop_truong_lh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/about-hero.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/angular-demo/src/app/teacher/teacher-create/teacher-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../demo/angular-demo/src/app/teacher/teacher-create/teacher-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../edit_profile/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../edit_profile/edit_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../edit_profile/edit_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/model/car.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/model/car.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/model/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/model/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/service/car.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/service/car.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/service/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/app/service/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/angular-exam/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/angular-exam/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../push_notification/fđf.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../push_notification/fđf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../push_notification/push_notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../push_notification/push_notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../register/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../register/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_boot_exam/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_boot_exam/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/controller/CarRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/controller/CarRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/controller/HomeCarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/controller/HomeCarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/model/HomeCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/java/codegym/demo/model/HomeCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_boot_exam/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/exercise/src/angular-product-management/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/exercise/src/angular-product-management/src/app/app-routing.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2Jr809uNHeqvUtzrmolD1o8QfRg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="638da5fa-dabc-4e59-95a8-1e0434fad4df" name="Default Changelist" comment="" />
+      <created>1672824615399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672824615399</updated>
+      <workItem from="1672824616845" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
