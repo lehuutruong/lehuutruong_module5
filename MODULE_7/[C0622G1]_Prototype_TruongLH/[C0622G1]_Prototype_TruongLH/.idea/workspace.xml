@@ -1,82 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="638da5fa-dabc-4e59-95a8-1e0434fad4df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/.idea/front_end_sprint_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/slick-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/slick.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/templatemo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/css/templatemo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/about-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/f-icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/f-icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/f-icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/f-icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/img/gallery-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/templatemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/js/templatemo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front_end_sprint_2/sprint2/src/assets/webfonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../[C0622G1]_Prototype_TruongLH/edit_profile/.idea/edit_profile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../[C0622G1]_Prototype_TruongLH/register/.idea/register.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_notification_demo/.idea/demo_notification_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo_paypal/.idea/demo_paypal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../edit_profile/.idea/edit_profile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module_6/.idea/module_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../push_notification/.idea/push_notification.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../untitled1/.idea/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../[C0622G1]_Prototype_TruongLH.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../[C0622G1]_Prototype_TruongLH.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/Zay.Shop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/.idea/pet_shop_truong_lh.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/about-hero.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/brand_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/category_img_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/feature_prod_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/product_single_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/img/shop_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/assets/webfonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pet_shop_truong_lh/pet_shop_truong_lh/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/slick.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/assets/css/templatemo.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet_shop_truong_lh/pet_shop_truong_lh/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../demo/angular-demo/src/app/teacher/teacher-create/teacher-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../demo/angular-demo/src/app/teacher/teacher-create/teacher-create.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../edit_profile/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../edit_profile/edit_profile.css" beforeDir="false" />
@@ -116,8 +122,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,10 +143,28 @@
       <option name="presentableId" value="Default" />
       <updated>1672824615399</updated>
       <workItem from="1672824616845" duration="44000" />
+      <workItem from="1672882427964" duration="11533000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1672882519714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1672882519714" />
   </component>
 </project>
