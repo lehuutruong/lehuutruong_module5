@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ce100dc-a601-4c41-9d47-c44a741acf46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../push_notification/fđf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../push_notification/push_notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/app/model/car.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/app/model/car.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/app/model/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/app/model/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/app/service/car.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/app/service/car.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/app/service/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/app/service/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/angular-exam/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/angular-exam/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_exam/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_exam/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/controller/CarRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/controller/CarRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/controller/HomeCarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/controller/HomeCarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/model/HomeCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_exam/src/main/java/codegym/demo/model/HomeCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_boot_exam/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot_exam/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_type_script/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_type_script/exercise/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2IlQ9TyqOec8ehOT7EW325QgVgI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ce100dc-a601-4c41-9d47-c44a741acf46" name="Default Changelist" comment="" />
+      <created>1670753538187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670753538187</updated>
+      <workItem from="1670753539449" duration="7000" />
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,5 +1,7 @@
 package codegym.demo.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -10,6 +12,7 @@ public class HomeCar {
     private int id;
     private String name;
     @OneToMany(mappedBy = "homeCar")
+    @JsonBackReference
     private Set<Car> homeCar;
     private int status;
 

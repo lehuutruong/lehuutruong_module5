@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  uri_api_car:"http://localhost:3000/car",
-  uri_api_home:"http://localhost:3000/home"
+  uri_api_car:"http://localhost:8080/api/car/v1",
+  uri_api_home:"http://localhost:8080/api/home/v1"
 };
 
 /*

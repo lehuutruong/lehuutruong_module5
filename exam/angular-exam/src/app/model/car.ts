@@ -6,6 +6,6 @@ export interface Car {
   pointEnd?:string;
   startDate?:string;
   timeDate?:string;
-  many?:string;
+  many?:number;
   homeCar:Home;
 }

@@ -25,15 +25,15 @@ export class CarService {
   }
 
   update(car: Car): Observable<Car> {
-    return this.httpClient.patch<Car>(environment.uri_api_car + '/' + car.id, car);
+    return this.httpClient.patch<Car>(environment.uri_api_car+ '/' + car.id, car);
   }
 
   findById(id: number): Observable<Car> {
-    return this.httpClient.get<Car>(environment.uri_api_car + '/' + id);
+    return this.httpClient.get<Car>(environment.uri_api_car+ '/' + id);
   }
 
   remove(car: Car): Observable<Car> {
-    return this.httpClient.delete<Car>(environment.uri_api_car + '/' + car.id);
+    return this.httpClient.delete<Car>(environment.uri_api_car+'/' + car.id);
   }
 
   showSuccessNotification(message: string) {

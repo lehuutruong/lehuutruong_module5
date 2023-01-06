@@ -14,7 +14,7 @@ import java.util.List;
 
 @CrossOrigin("*")
 @RestController
-@RequestMapping("http://localhost:3000/home")
+@RequestMapping("/api/home/v1")
 public class HomeCarController {
     @Autowired
     private IHomeCarService homeCarService;

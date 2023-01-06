@@ -13,6 +13,6 @@ export class HomeService {
   }
 
   getAll(): Observable<Home[]> {
-    return this.httpClient.get<Home[]>(environment.uri_api_home)
+    return this.httpClient.get<Home[]>(environment.uri_api_home+'/api/home/v1')
   }
 }

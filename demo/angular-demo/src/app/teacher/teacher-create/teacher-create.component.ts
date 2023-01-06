@@ -37,7 +37,7 @@ export class TeacherCreateComponent implements OnInit {
         point: ['', [Validators.required]],
         class: [, [Validators.required]],
       },{validators: this.areEqual});
-    })
+    });
   }
 
   submit() {
