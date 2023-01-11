@@ -13,6 +13,7 @@ public class MyUserDetailService implements UserDetailsService {
 
     @Autowired
     private IAccountService accountService;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Account account = accountService.findAccountByUsername(username);

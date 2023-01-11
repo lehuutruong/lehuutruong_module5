@@ -17,7 +17,7 @@ public class Address {
     private String country;
 
     @OneToOne(mappedBy = "address")
-    @JsonBackReference
+   @JsonBackReference
     private User user;
 
     public Address() {

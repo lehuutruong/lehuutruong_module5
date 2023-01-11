@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {User} from "../../model/user/user";
 import {TokenService} from "../../service/account/token.service";
 import {Router} from "@angular/router";
+import {Account} from "../../model/account/account";
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent implements OnInit {
 
   checkLogin: boolean;
   nameAccount: any;
-  currentUser: User;
+  currentUser: Account;
   accountRole: string;
   constructor(private _tokenService: TokenService,
               private _router: Router) { }
@@ -24,7 +25,7 @@ export class HeaderComponent implements OnInit {
       this.currentUser = JSON.parse(this._tokenService.getUser());
       console.log("hehhe"+this.currentUser)
 
-      this.nameAccount =  this.currentUser.firstName + ' ' + this.currentUser.lastName;
+      this.nameAccount =  this.currentUser.user.firstName + ' ' + this.currentUser.user.lastName;
       console.log("tên"+this.nameAccount)
       const roles = this._tokenService.getRole();
 

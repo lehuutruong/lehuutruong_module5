@@ -74,10 +74,12 @@
             <i class="fa fa-fw fa-user text-dark mr-3"></i>
             <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
           </button>
-          <div class="dropdown-menu">
-            <button *ngIf="!checkLogin" [hidden]="checkLogin" routerLink="home/login" class="dropdown-item" type="button">Đăng nhập</button>
+          <div class="dropdown-menu dropdown-menu-left" style="left: -110px !important;">
+            <div class="dropdown-item" *ngIf="!checkLogin" [hidden]="checkLogin">
+              <button  routerLink="home/login" class=" btn-sm btn btn-primary w-100" type="button">Đăng nhập</button>
+            </div>
             <p *ngIf="checkLogin"  class="dropdown-item" >{{nameAccount}}</p>
-            <button *ngIf="checkLogin" (click)="logOut()" class="dropdown-item" type="button">Đăng xuất</button>
+            <button *ngIf="checkLogin" (click)="logOut()" class="dropdown-item btn-sm" type="button">Đăng xuất</button>
           </div>
         </div>
       </div>

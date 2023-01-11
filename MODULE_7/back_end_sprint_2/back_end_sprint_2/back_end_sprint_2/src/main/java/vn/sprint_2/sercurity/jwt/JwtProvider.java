@@ -3,6 +3,7 @@ package vn.sprint_2.sercurity.jwt;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 import vn.sprint_2.sercurity.user_detail.MyUserDetail;
@@ -14,7 +15,8 @@ public class JwtProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtProvider.class);
 
-    private String jwtSecret = "hello";
+    @Value("${jwtSecret}")
+    private String jwtSecret;
 
     private Integer jwtExpiration = 1*24*60*60;
 

@@ -1,7 +1,6 @@
 package vn.sprint_2.model.users;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import vn.sprint_2.model.account.Account;
 import vn.sprint_2.model.oder.ProductOder;
@@ -41,7 +40,7 @@ public class User {
 
     @ManyToOne
     @JoinColumn(name = "user_type_id", referencedColumnName = "id")
-    @JsonManagedReference
+    @JsonBackReference
     private UserType userType;
 
     @OneToOne
@@ -49,7 +48,6 @@ public class User {
     @JsonBackReference
     private Account account;
 
-    @JsonBackReference
     @OneToMany(mappedBy = "user")
     private Set<ProductOder> product;
 

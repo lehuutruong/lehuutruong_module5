@@ -7,12 +7,12 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import vn.sprint_2.dto.JwtRespone;
 import vn.sprint_2.dto.MessageRespone;
 import vn.sprint_2.dto.SignInForm;
 import vn.sprint_2.model.account.Account;
+import vn.sprint_2.model.users.User;
 import vn.sprint_2.sercurity.jwt.JwtProvider;
 import vn.sprint_2.sercurity.user_detail.MyUserDetail;
 import vn.sprint_2.service.account.IAccountService;
@@ -29,8 +29,9 @@ public class SecurityController {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+
     @PostMapping("/signin")
-    public ResponseEntity<?> login(@Validated @RequestBody SignInForm signInForm) {
+    public ResponseEntity<?> login(@RequestBody SignInForm signInForm) {
 
 
         Account accountValidate = accountService.findAccountByUsername(signInForm.getUsername());
@@ -48,9 +49,11 @@ public class SecurityController {
 
         MyUserDetail myUserDetail = (MyUserDetail) authentication.getPrincipal();
 
-        JwtRespone respone = new JwtRespone(token, myUserDetail.getAuthorities(),
-                myUserDetail.getAccount(),myUserDetail.getAccount().getUser());
+        User userResponse = myUserDetail.getAccount().getUser();
 
-        return ResponseEntity.ok(respone);
+        return ResponseEntity.ok(new JwtRespone(token,
+                myUserDetail.getAccount(),
+//                userResponse.getAccount().getUser(),
+                myUserDetail.getAuthorities()));
     }
 }

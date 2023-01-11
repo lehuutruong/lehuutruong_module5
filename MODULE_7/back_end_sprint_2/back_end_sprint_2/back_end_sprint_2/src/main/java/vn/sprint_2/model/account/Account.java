@@ -26,8 +26,9 @@ public class Account {
     private Boolean deleteStatus;
 
     @JsonBackReference
-    @OneToMany(mappedBy = "account", fetch = FetchType.EAGER)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "account")
     private Set<AccountRole> accountRoles;
+
 
     @OneToOne(mappedBy = "account")
     @JsonBackReference
@@ -35,6 +36,8 @@ public class Account {
 
     public Account() {
     }
+
+
 
     public Integer getId() {
         return id;

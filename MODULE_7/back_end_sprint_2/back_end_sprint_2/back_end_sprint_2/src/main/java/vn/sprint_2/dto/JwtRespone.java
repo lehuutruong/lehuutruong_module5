@@ -8,34 +8,61 @@ import java.util.Collection;
 
 public class JwtRespone {
 
+    private Integer id;
     private String token;
     private String type = "Bearer";
+    private String name;
+    private String username;
     private Account account;
     private User user;
+    private String email;
     private Collection<? extends GrantedAuthority> roles;
 
     public JwtRespone() {
     }
 
-    public JwtRespone(String token, Collection<? extends GrantedAuthority> authorities, Account account) {
-        this.token = token;
-        this.roles = authorities;
-        this.account = account;
-    }
-
-    public JwtRespone(String token, Collection<? extends GrantedAuthority> authorities, Account account, User user) {
-        this.token = token;
-        this.roles = authorities;
-        this.account = account;
-        this.user=user;
-    }
-
-    public JwtRespone(String token, String type, Account account, User user, Collection<? extends GrantedAuthority> roles) {
+    public JwtRespone(Integer id, String token, String type, String name, Collection<? extends GrantedAuthority> roles) {
+        this.id = id;
         this.token = token;
         this.type = type;
+        this.name = name;
+        this.roles = roles;
+    }
+
+    public JwtRespone(String token, String username, Collection<? extends GrantedAuthority> authorities) {
+        this.token = token;
+        this.name = username;
+        this.roles = authorities;
+
+    }
+
+
+    public JwtRespone(String token, String name, String username, Collection<? extends GrantedAuthority> roles) {
+        this.token = token;
+        this.name = name;
+        this.username = username;
+        this.roles = roles;
+    }
+
+    public JwtRespone(String token, Account account, User user, Collection<? extends GrantedAuthority> roles) {
+        this.token = token;
         this.account = account;
         this.user = user;
         this.roles = roles;
+    }
+
+    public JwtRespone(String token, Account account, Collection<? extends GrantedAuthority> authorities) {
+        this.token = token;
+        this.account = account;
+        this.roles = authorities;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getToken() {
@@ -54,12 +81,12 @@ public class JwtRespone {
         this.type = type;
     }
 
-    public Account getAccount() {
-        return account;
+    public String getName() {
+        return name;
     }
 
-    public void setAccount(Account account) {
-        this.account = account;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Collection<? extends GrantedAuthority> getRoles() {
@@ -70,11 +97,35 @@ public class JwtRespone {
         this.roles = roles;
     }
 
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
+
     public User getUser() {
         return user;
     }
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
