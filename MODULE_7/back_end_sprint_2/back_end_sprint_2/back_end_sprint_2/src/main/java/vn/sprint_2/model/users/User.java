@@ -1,5 +1,7 @@
 package vn.sprint_2.model.users;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import vn.sprint_2.model.account.Account;
 import vn.sprint_2.model.oder.ProductOder;
@@ -32,23 +34,22 @@ public class User {
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
 
-
     @OneToOne
     @JoinColumn(name = "address_id", referencedColumnName = "id")
-    @JsonManagedReference
+    @JsonBackReference
     private Address address;
 
     @ManyToOne
     @JoinColumn(name = "user_type_id", referencedColumnName = "id")
+    @JsonManagedReference
     private UserType userType;
-
 
     @OneToOne
     @JoinColumn(name = "account_id", referencedColumnName = "id")
+    @JsonBackReference
     private Account account;
 
-
-    @JsonManagedReference
+    @JsonBackReference
     @OneToMany(mappedBy = "user")
     private Set<ProductOder> product;
 

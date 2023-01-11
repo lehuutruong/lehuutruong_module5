@@ -1,5 +1,6 @@
 package vn.sprint_2.model.oder;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import vn.sprint_2.model.product.Product;
 
 import javax.persistence.*;
@@ -8,20 +9,22 @@ import javax.persistence.*;
 public class ProductOderDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
-    private Integer quantity;
-
-    @Column(columnDefinition = "boolean default true")
-    private Boolean deleteStatus;
-
-    @ManyToOne
-    @JoinColumn(name = "product_oder_id", referencedColumnName = "id")
-    private ProductOder productOder;
-
-    @ManyToOne
-    @JoinColumn(name = "product_id", referencedColumnName = "id")
-    private Product product;
+        private Integer id;
+    
+        private Integer quantity;
+    
+        @Column(columnDefinition = "boolean default true")
+        private Boolean deleteStatus;
+    
+        @ManyToOne
+        @JoinColumn(name = "product_oder_id", referencedColumnName = "id")
+        @JsonManagedReference
+        private ProductOder productOder;
+    
+        @ManyToOne
+        @JoinColumn(name = "product_id", referencedColumnName = "id")
+        @JsonManagedReference
+        private Product product;
 
     public ProductOderDetail() {
     }

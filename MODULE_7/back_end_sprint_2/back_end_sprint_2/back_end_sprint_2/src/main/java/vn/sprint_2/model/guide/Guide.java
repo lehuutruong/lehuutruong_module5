@@ -1,5 +1,6 @@
 package vn.sprint_2.model.guide;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
@@ -14,7 +15,8 @@ public class Guide {
     private String content;
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
-    @JsonManagedReference
+
+    @JsonBackReference
     @OneToMany(mappedBy = "guide")
     private Set<ImgUrlGuide> images;
 

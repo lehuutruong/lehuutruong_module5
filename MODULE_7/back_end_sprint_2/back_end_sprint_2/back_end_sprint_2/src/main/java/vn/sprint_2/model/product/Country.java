@@ -1,5 +1,6 @@
 package vn.sprint_2.model.product;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 
@@ -17,7 +18,7 @@ public class Country {
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
 
-    @JsonManagedReference
+    @JsonBackReference
     @OneToMany(mappedBy = "country")
     private Set<Product> product;
 

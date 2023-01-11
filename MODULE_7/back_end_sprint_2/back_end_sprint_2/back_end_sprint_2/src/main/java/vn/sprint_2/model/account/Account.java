@@ -17,14 +17,16 @@ public class Account {
 
     private String password;
 
+    private Integer enabled;
+
     @Column(columnDefinition = "boolean default true")
     private Boolean statusLock;
 
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
 
-    @OneToMany(mappedBy = "account", fetch = FetchType.EAGER)
     @JsonBackReference
+    @OneToMany(mappedBy = "account", fetch = FetchType.EAGER)
     private Set<AccountRole> accountRoles;
 
     @OneToOne(mappedBy = "account")
@@ -89,5 +91,13 @@ public class Account {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public Integer getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Integer enabled) {
+        this.enabled = enabled;
     }
 }

@@ -1,5 +1,6 @@
 package vn.sprint_2.model.product;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import vn.sprint_2.model.oder.ProductOderDetail;
 
@@ -16,24 +17,28 @@ public class Product {
     private String age;
     private Double price;
     private Integer quantity;
+    private String avatar;
 
-
-    @JsonManagedReference
+    @JsonBackReference
     @OneToMany(mappedBy = "product")
     private Set<ProductOderDetail> productOderDetailSet;
 
     @ManyToOne
     @JoinColumn(name = "country_id", referencedColumnName = "id")
+    @JsonManagedReference
     private Country country;
 
 
     @ManyToOne
     @JoinColumn(name = "category_id", referencedColumnName = "id")
+    @JsonManagedReference
     private Category category;
 
+
+    @ManyToOne
+    @JoinColumn(name = "img_url_id", referencedColumnName = "id")
     @JsonManagedReference
-    @OneToMany(mappedBy = "product")
-    private Set<ImgUrlProduct> imgUrlProduct;
+    private ImgUrlProduct imgUrlProduct;
 
     public Product() {
     }
@@ -86,6 +91,14 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
     public Set<ProductOderDetail> getProductOderDetailSet() {
         return productOderDetailSet;
     }
@@ -110,11 +123,11 @@ public class Product {
         this.category = category;
     }
 
-    public Set<ImgUrlProduct> getImgUrlProduct() {
+    public ImgUrlProduct getImgUrlProduct() {
         return imgUrlProduct;
     }
 
-    public void setImgUrlProduct(Set<ImgUrlProduct> imgUrlProduct) {
+    public void setImgUrlProduct(ImgUrlProduct imgUrlProduct) {
         this.imgUrlProduct = imgUrlProduct;
     }
 }

@@ -1,5 +1,6 @@
 package vn.sprint_2.model.oder;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import vn.sprint_2.model.users.User;
 
@@ -19,9 +20,10 @@ public class ProductOder {
 
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @JsonManagedReference
     private User user;
 
-    @JsonManagedReference
+    @JsonBackReference
     @OneToMany(mappedBy = "productOder")
     private Set<ProductOderDetail> productOderDetailSet;
 

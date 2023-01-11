@@ -1,6 +1,10 @@
 package vn.sprint_2.model.product;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class ImgUrlProduct {
@@ -13,9 +17,9 @@ public class ImgUrlProduct {
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
 
-    @ManyToOne
-    @JoinColumn(name = "product_id", referencedColumnName = "id")
-    private Product product;
+    @JsonBackReference
+    @OneToMany(mappedBy = "imgUrlProduct")
+    private Set<Product> product;
 
     public ImgUrlProduct() {
     }
@@ -44,12 +48,11 @@ public class ImgUrlProduct {
         this.deleteStatus = deleteStatus;
     }
 
-    public Product getProduct() {
+    public Set<Product> getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(Set<Product> product) {
         this.product = product;
     }
-
 }

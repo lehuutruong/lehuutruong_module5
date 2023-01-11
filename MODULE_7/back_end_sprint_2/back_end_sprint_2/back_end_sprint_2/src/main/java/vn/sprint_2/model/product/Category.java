@@ -1,5 +1,6 @@
 package vn.sprint_2.model.product;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
@@ -16,7 +17,7 @@ public class Category {
     @Column(columnDefinition = "boolean default true")
     private Boolean deleteStatus;
 
-    @JsonManagedReference
+    @JsonBackReference
     @OneToMany(mappedBy = "category")
     private Set<Product> product;
 

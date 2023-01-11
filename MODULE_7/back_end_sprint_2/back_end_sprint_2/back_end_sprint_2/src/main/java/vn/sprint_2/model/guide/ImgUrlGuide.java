@@ -1,6 +1,7 @@
 package vn.sprint_2.model.guide;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
 
@@ -10,9 +11,10 @@ public class ImgUrlGuide {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String url;
-    @JsonBackReference
+
     @ManyToOne
     @JoinColumn(name = "guide_id",referencedColumnName = "id")
+    @JsonManagedReference
     private Guide guide;
 
     public ImgUrlGuide() {
