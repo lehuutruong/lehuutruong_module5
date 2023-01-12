@@ -78,8 +78,8 @@
             <div class="dropdown-item" *ngIf="!checkLogin" [hidden]="checkLogin">
               <button  routerLink="home/login" class=" btn-sm btn btn-primary w-100" type="button">Đăng nhập</button>
             </div>
-            <p *ngIf="checkLogin"  class="dropdown-item" >{{nameAccount}}</p>
-            <button *ngIf="checkLogin" (click)="logOut()" class="dropdown-item btn-sm" type="button">Đăng xuất</button>
+<!--            <p *ngIf="checkLogin"  class="dropdown-item" >{{nameAccount}}</p>-->
+            <button *ngIf="checkLogin" (click)="logOut()" class="btn-sm  btn btn-primary w-100" type="button">Đăng xuất</button>
           </div>
         </div>
       </div>
