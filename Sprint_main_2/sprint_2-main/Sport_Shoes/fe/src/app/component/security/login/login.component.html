@@ -1,0 +1,98 @@
+<div class="limiter">
+  <div class="container-login100">
+    <div class="wrap-login100">
+      <form *ngIf="rfLogin" [formGroup]="rfLogin" (ngSubmit)="login()" class="login100-form">
+        <div class="mb-5 text-center" style="margin-top: -120px">
+          <a href="">
+          </a>
+        </div>
+        <span class="login100-form-title p-b-43">
+						Đăng Nhập Để Tiếp Tục</span>
+
+
+        <div class="form-floating mb-3">
+          <input formControlName="username" type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Tài Khoản</label>
+          <div *ngIf="rfLogin.controls['username'].hasError('required') &&
+                rfLogin.controls['username'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Vui lòng nhập tên đăng nhập</p>
+          </div>
+
+          <div *ngIf="rfLogin.controls['username'].hasError('minlength') &&
+                rfLogin.controls['username'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Tên đăng nhập từ 3 đến 40 ký tự</p>
+          </div>
+
+          <div *ngIf="rfLogin.controls['username'].hasError('maxlength') &&
+                rfLogin.controls['username'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Tên đăng nhập từ 3 đến 40 ký tự</p>
+          </div>
+        </div>
+
+        <div class="form-floating">
+          <input formControlName="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Mật Khẩu</label>
+          <div *ngIf="rfLogin.controls['password'].hasError('required') &&
+                rfLogin.controls['password'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Vui lòng nhập mật khẩu</p>
+          </div>
+
+          <div *ngIf="rfLogin.controls['password'].hasError('minlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+          </div>
+
+          <div *ngIf="rfLogin.controls['password'].hasError('maxlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+            <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+          </div>
+        </div>
+
+        <div class="flex-sb-m w-full p-t-3 p-b-32">
+          <div class="contact100-form-checkbox">
+            <input formControlName="rememberMe" class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+            <label class="label-checkbox100" for="ckb1">
+              Ghi Nhớ
+            </label>
+          </div>
+
+          <div class="fs-2">
+            <a href="#" class="txt1 text-decoration-none">
+              Quên Mật Khẩu?
+            </a>
+          </div>
+        </div>
+
+
+        <div class="container-login100-form-btn">
+          <button class="login100-form-btn">
+            Đăng Nhập
+          </button>
+        </div>
+
+        <div class="text-center p-t-46 p-b-20">
+						<span class="txt2">
+							Hình Thức Đăng Nhập Khác
+						</span>
+        </div>
+
+        <div class="login100-form-social flex-c-m">
+          <a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5 text-decoration-none">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5 text-decoration-none">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" class="login100-form-social-item flex-c-m bg3 m-r-5 text-decoration-none">
+            <i class="fa-brands fa-google"></i>
+          </a>
+        </div>
+      </form>
+
+      <div class="login100-more" style="background-image: url('assets/img/bg-02.jpg');">
+      </div>
+    </div>
+  </div>
+</div>

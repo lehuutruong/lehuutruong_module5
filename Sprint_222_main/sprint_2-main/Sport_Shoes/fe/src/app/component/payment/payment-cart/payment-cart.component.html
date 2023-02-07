@@ -1,0 +1,61 @@
+<div class="wrapper mt-5 mb-5">
+  <div class="project">
+    <div class="shop">
+
+      <div class="mb-3">
+        <div style="background: #76bfb6">
+          <span class="btn w-100 p-3 text-left h2 text-light font-weight-bold"><i
+            class="fa-solid fa-cart-shopping px-3"></i>Giỏ Hàng</span>
+        </div>
+      </div>
+
+      <div *ngFor="let item of listOder; let i = index;" class="box mb-3">
+          <img style="cursor: pointer" (click)="routerChange(item?.productDetail?.product?.id)" [src]="item?.productDetail?.images[0]?.url" height="1000" width="1000"/>
+        <div class="content">
+          <h3 style="color: #28a745">{{item.productDetail.product.name|titlecase}}</h3>
+          <div>
+            <h4 style="margin-bottom: 25px" *ngIf="item.productDetail.product.disCount.percent == 0" class="text-left">{{item.productDetail.product.price|currency}}</h4>
+            <h4 style="margin-bottom: -25px" *ngIf="item.productDetail.product.disCount.percent != 0" class="text-left d-flex">
+              <h4 style="font-size: 14px;color: gray;text-decoration-line:line-through">{{item.productDetail.product.price|currency}}</h4>
+              <h4 style="margin-left: 5px;color: red">{{item.productDetail.product.currentPrice|currency}}</h4>
+            </h4>
+
+          </div>
+          <div>
+            <p class="unit">Số Lượng: <input name="" [value]="item.quantity"></p>
+            <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Xóa</span></p>
+          </div>
+        </div>
+      </div>
+
+
+<!--      <div class="box mb-3">-->
+<!--        <img src="../../../../assets/img/shop_02.jpg" height="1000" width="1000"/>-->
+<!--        <div class="content">-->
+<!--          <h3>STAN SMITH</h3>-->
+<!--          <h4>3.500.000 VNĐ</h4>-->
+<!--          <p class="unit">Số Lượng: <input name="" value="2"></p>-->
+<!--          <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Xóa</span></p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="box">-->
+<!--        <img src="../../../../assets/img/shop_03.jpg" height="1000" width="1000"/>-->
+<!--        <div class="content">-->
+<!--          <h3>SUPERSTAR</h3>-->
+<!--          <h4>4.500.000 VNĐ</h4>-->
+<!--          <p class="unit">Số Lượng: <input name="" value="1"></p>-->
+<!--          <p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Xóa</span></p>-->
+<!--        </div>-->
+<!--      </div>-->
+    </div>
+    <div class="right-bar">
+      <p><span>Thanh Toán </span> <span>1.000.000.000 VNĐ</span></p>
+      <hr>
+      <p><span>Thuế (10%)</span> <span>10.000 VNĐ</span></p>
+      <hr>
+      <p><span>Phí Giao Hàng</span> <span>49.000 VNĐ</span></p>
+      <hr>
+      <p><span>Tổng</span> <span>500.000 VNĐ</span></p><a href="#"><i class="fa fa-shopping-cart"></i>Thanh Toán</a>
+    </div>
+  </div>
+</div>

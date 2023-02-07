@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d45bc2ca-e7e8-48a9-ad9c-033196c3b3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/color/ColorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/color/IColorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/image/IImageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/image/ImageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/order/OderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/product/ProductListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/product/ProductSearchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/product_detail/ProductDetailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/size/ISizeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/size/SizeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/color/ColorDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/color/IColorDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/image/IImageDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/image/ImageDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/order/OderDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/product-detail/ProductDetailDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/product/ProductListDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/szie/ISizeDto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/szie/SizeDto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/data_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/data_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/order/OderRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/order/OderRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/payment/PaymentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/payment/PaymentRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ColorRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ColorRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ImageProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ImageProductRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ProductDetailRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ProductDetailRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/ProductRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/SizeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/product/SizeRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/order/Oder.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/order/Oder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/ProductDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/ProductDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/product/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/order/IOderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/order/IOderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IColorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IColorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IImageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IProductDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IProductDetailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/ISizeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/product/ISizeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/order/IOderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/order/IOderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/order/impl/OderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/order/impl/OderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IColorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IColorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IProductDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IProductDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/ISizeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/ISizeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ColorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ColorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ProductDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ProductDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/SizeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/product/impl/SizeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/component/product/product-detail/product-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/product/PageProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/dto/product/PageProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/model/product/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/model/product/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/order/oder.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/order/oder.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/color.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/color.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/image.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/image.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/product-detail.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/product-detail.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/size.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/product/size.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/security/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Sport_Shoes/fe/src/app/service/security/auth.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JtAtZ0Nz8Mv3l9AHP8sZoMBgpT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_jwt" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code_gym\code_gym\bai_tap_githup\sprint_2\Sport-Shoes-Api\demo\src\main\java\com\example\demo\dto\payload" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.BeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d45bc2ca-e7e8-48a9-ad9c-033196c3b3d1" name="Default Changelist" comment="" />
+      <created>1672887220248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672887220248</updated>
+      <workItem from="1672887222160" duration="183000" />
+      <workItem from="1673491415818" duration="654000" />
+      <workItem from="1673492117246" duration="9061000" />
+      <workItem from="1673573014851" duration="8397000" />
+      <workItem from="1673751506547" duration="61000" />
+      <workItem from="1673751602965" duration="865000" />
+      <workItem from="1673756584244" duration="1412000" />
+      <workItem from="1673758160911" duration="961000" />
+      <workItem from="1673759161249" duration="216000" />
+      <workItem from="1673759423055" duration="36641000" />
+      <workItem from="1674794563524" duration="70120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1673491641928">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1673491641928" />
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673492043875">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1673492043875" />
+    <state x="446" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1675243802184">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1675243802184" />
+    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1673491892231">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="150" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1673491892231" />
+    <state x="297" y="285" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1673497780199">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="285" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1673497780199" />
+    <state x="416" y="229" width="451" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1674977036517">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="416" y="229" width="451" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1674977036517" />
+    <state x="396" y="63" key="#xdebugger.evaluate" timestamp="1675221561992">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="396" y="63" key="#xdebugger.evaluate/0.0.1280.720@0.0.1280.720" timestamp="1675221561992" />
+    <state x="421" y="115" key="FileChooserDialogImpl" timestamp="1675056362303">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1675056362303" />
+    <state width="1237" height="234" key="GridCell.Tab.0.bottom" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.0.center" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.0.left" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.0.right" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.1.bottom" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state width="1237" height="234" key="GridCell.Tab.1.center" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.1.left" timestamp="1675259115384">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1675259115384" />
+    <state width="1237" height="234" key="GridCell.Tab.1.right" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state width="1237" height="234" key="GridCell.Tab.2.bottom" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state width="1237" height="234" key="GridCell.Tab.2.center" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state width="1237" height="234" key="GridCell.Tab.2.left" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state width="1237" height="234" key="GridCell.Tab.2.right" timestamp="1675259115385">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="234" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1675259115385" />
+    <state x="219" y="10" key="SettingsEditor" timestamp="1673759375731">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="219" y="10" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1673759375731" />
+    <state x="93" y="93" width="1095" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1674129307454">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1674129307454" />
+    <state x="91" y="0" key="new project wizard" timestamp="1672887404093">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1672887404093" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1674841407301">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1674841407301" />
+  </component>
+</project>

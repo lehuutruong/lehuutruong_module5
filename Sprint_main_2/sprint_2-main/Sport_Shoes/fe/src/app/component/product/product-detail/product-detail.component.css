@@ -1,0 +1,27 @@
+.carousel__images {
+  overflow-x: scroll;
+}
+.carousel__images::-webkit-scrollbar {
+  display: none;
+}
+.image__item {
+  min-width: 45px;
+  margin: 12px;
+  cursor: pointer;
+  border: 3px solid rgba(245, 76, 59, 0);
+
+}
+
+.image__item.actived {
+  border: 3px solid #38ae70;
+  border-radius: 4px;
+  /*box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.35);*/
+}
+.image__item:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.active-brand {
+  -webkit-filter: drop-shadow(5px 5px 5px);
+}
+

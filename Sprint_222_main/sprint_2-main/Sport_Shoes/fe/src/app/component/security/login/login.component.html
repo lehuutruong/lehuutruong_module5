@@ -1,0 +1,77 @@
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+      <div class="col-md-8 col-lg-7 col-xl-6">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+             class="img-fluid" alt="Phone image">
+      </div>
+      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+        <form *ngIf="rfLogin" [formGroup]="rfLogin" (ngSubmit)="login()" >
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form1Example13" class="form-control form-control-lg" formControlName="username"/>
+            <label class="form-label" for="form1Example13">Tài Khoản</label>
+            <div *ngIf="rfLogin.controls['password'].hasError('required') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Vui lòng nhập mật khẩu</p>
+            </div>
+
+            <div *ngIf="rfLogin.controls['password'].hasError('minlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+            </div>
+
+            <div *ngIf="rfLogin.controls['password'].hasError('maxlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+            </div>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="form1Example23" class="form-control form-control-lg" formControlName="password" />
+            <label class="form-label" for="form1Example23">Mật Khẩu</label>
+            <div *ngIf="rfLogin.controls['password'].hasError('required') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Vui lòng nhập mật khẩu</p>
+            </div>
+
+            <div *ngIf="rfLogin.controls['password'].hasError('minlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+            </div>
+
+            <div *ngIf="rfLogin.controls['password'].hasError('maxlength') &&
+                rfLogin.controls['password'].touched" class="col-12">
+              <p style="color: red; margin-left: 15px;margin-top: 10px;font-size: 8px">Mật khẩu từ 5 đến 40 ký tự</p>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-around align-items-center mb-4">
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+              <label class="form-check-label" for="form1Example3"> Nhớ mất khẩu </label>
+            </div>
+            <a href="#!">Quên mật khẩu?</a>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-lg btn-block" style="margin-left: 200px">Đăng nhập</button>
+
+          <div class="divider d-flex align-items-center my-4">
+            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+          </div>
+
+          <a class="btn btn-primary btn-lg btn-block " style="background-color: #3b5998;margin-right: 20px " href="#!"
+             role="button">
+            <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
+          </a>
+          <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee;margin-left: 20px" href="#!"
+             role="button">
+            <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

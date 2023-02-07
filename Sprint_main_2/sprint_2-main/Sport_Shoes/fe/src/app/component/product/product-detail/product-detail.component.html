@@ -1,0 +1,220 @@
+<section class="bg-light">
+  <div class="container pb-5">
+    <div class="row">
+      <!--      <div class="col-lg-5 mt-5">-->
+      <!--        <div class="card mb-3">-->
+      <!--          <img id="image__main{{1}}" [src]="productDetail?.images[0]?.url" alt="Card image cap">-->
+      <!--        </div>-->
+
+      <!--        <ul class="carousel__images d-flex" style="margin-left: -35px">-->
+      <!--          <li value="{{j}}" class="image__item img-selected{{1}} carousel-item active"-->
+      <!--              *ngFor="let item of productDetail?.images,let j = index;">-->
+      <!--            <img (click)="changeImage($event, 1, j)" class="card-img img-fluid d-block" src="{{item.url}}" width=""-->
+      <!--                 alt="">-->
+      <!--          </li>-->
+      <!--        </ul>-->
+
+      <!--      </div>-->
+
+      <div class="col-lg-5 mt-5">
+        <div *ngIf="imageList" class="card mb-3">
+          <img id="image__main{{1}}" [src]="imageList[0]?.url" alt="Card image cap">
+        </div>
+
+        <ul class="carousel__images d-flex" style="margin-left: -35px">
+          <li value="{{j}}" class="image__item img-selected{{1}} carousel-item active"
+              *ngFor="let item of imageList,let j = index;">
+            <img (click)="changeImage($event, 1, j)" class="card-img img-fluid d-block" src="{{item?.url}}" width=""
+                 alt="">
+          </li>
+        </ul>
+      </div>
+      <!-- col end -->
+      <div class="col-lg-7 mt-5">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="h2" style="color: #28a745">{{productDetail?.product?.name}}</h1>
+            <p *ngIf="productDetail?.product?.disCount?.percent == 0"
+               class="h3 py-2">{{productDetail?.product?.currentPrice|currency}}</p>
+            <p *ngIf="productDetail?.product?.disCount?.percent != 0"
+               class="h3 py-2">
+              <span
+                style="font-size: 14px;color: gray;text-decoration-line:line-through">{{productDetail?.product?.price|currency}}</span>
+              <span style="margin-left: 5px;color: red">{{productDetail?.product?.currentPrice|currency}}</span>
+            </p>
+            <p class="py-2">
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-secondary"></i>
+              <span class="list-inline-item text-dark mx-2">Đánh Giá 4.8 | 36 Bình Luận</span>
+            </p>
+            <ul class="list-inline py-2">
+              <li class="list-inline-item">
+                <h6>Thương Hiệu:</h6>
+              </li>
+              <li class="list-inline-item">
+                <p class="text-muted"><strong>{{productDetail?.product?.brand?.name}}</strong></p>
+              </li>
+            </ul>
+            <div class="py-2">
+              <h6>Mô Tả:</h6>
+              <p>{{productDetail?.product?.description}}</p>
+            </div>
+
+
+            <form *ngIf="rfProductDetail" [formGroup]="rfProductDetail">
+              <div>
+                <div class="py-2">
+                  <div class="list-inline d-flex align-items-center">
+                    <h6 class="list-inline-item">Màu Sắc :</h6>
+                    <p class="list-inline-item d-flex align-items-center"
+                       *ngFor="let itemColor of colorList;let i=index;">
+                      <input (click)="getImage(itemColor.id)" id="label-coler{{i}}" class="mx-1"
+                             formControlName="colorId" type="radio" [value]="itemColor?.id">
+                      <span *ngIf="itemColor.id == 1"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 1?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: whitesmoke;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 2"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 2?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: black;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 3"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 3?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: #bd813e;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 4"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 4?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: #4d5372;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 5"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 5?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: #444831;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 6"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 6?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: #b4b5ae;font-size: 25px"></i></label></span>
+                      <span *ngIf="itemColor.id == 7"><label for="label-coler{{i}}"
+                                                             [ngClass]="rfImage.value['colorId'] == 7?'active-brand':''"
+                                                             (click)="getImage(itemColor.id)"><i
+                        class="fa-solid fa-circle" style="color: #3a2329;font-size: 25px"></i></label></span>
+                    </p>
+                  </div>
+                </div>
+                <div class="py-2">
+                  <div class="list-inline">
+                    <h6 class="list-inline-item">Kích Cỡ :</h6>
+                    <p class="list-inline-item"
+                       *ngFor="let item of ageList;let i=index;">
+                      <input (click)="getAllColorByProductDetail(item.id)" class="mx-1" formControlName="sizeId"
+                             type="radio" [value]="item?.id">{{item?.age}}
+                    </p>
+                  </div>
+                </div>
+                <div class="py-2">
+                  <div class="list-inline pb-3 d-flex align-items-center">
+                    <h6 class="list-inline-item">Số Lượng :</h6>
+                    <button id="btn-minus" (click)="minusOne()" class="list-inline-item btn btn-success"
+                            [disabled]="rfOder.value.quantity<=0"><span>-</span></button>
+                    <form *ngIf="rfOder" [formGroup]="rfOder">
+                      <input hidden formControlName="userId">
+                      <input hidden formControlName="productDetailId">
+                      <input currencyMask
+                             [options]="{align:'center', prefix: '',suffix :'',precision :0, thousands:'', decimal :',',max:productDetailResult?.quantity,min:'0',allowNegative :false}"
+
+                             style="width: 50px;text-align: center;margin-left: -2px" type="text"
+                             class="list-inline-item"
+                             formControlName="quantity">
+                    </form>
+                    <button [ngClass]="rfOder?.value?.quantity >= productDetailResult?.quantity?'disabled':''"
+                            (click)="plusOne()" class="list-inline-item btn btn-success" id="btn-plus"><span>+</span>
+                    </button>
+                    <h6 style="margin-left: 180px;display: inline-block">Số Lượng Còn Lại:
+                      <!--                      <span *ngIf="!checkQuantity" class="mx-2" style="color:#b5a8a3;padding: 2px">{{productDetail?.quantity}}</span>-->
+                      <span class="mx-2" style="color:#b5a8a3;padding: 2px">{{productDetailResult?.quantity}}</span>
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="row pb-3">
+                  <div class="col d-grid">
+                    <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Mua Hàng</button>
+                  </div>
+                  <div class="col d-grid">
+                    <button [ngClass]="rfOder.invalid||checkQuantity?'disabled':''" type="button"
+                            class="btn btn-success btn-lg"
+                            (click)="addNewOder()">Thêm Vào Giỏ Hàng
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Close Content -->
+
+<!-- Start Article -->
+<section class="py-5">
+  <div class="container">
+    <div class="row text-left p-2 pb-3">
+      <h4>Sản Phẩm Tương Tự</h4>
+    </div>
+
+    <!--Start Carousel Wrapper-->
+    <div class="p-2 pb-3 d-flex">
+      <div *ngFor="let item of productByBrand?.content" class="product-wap card rounded-0 mx-2">
+        <div class="card rounded-0">
+          <img class="card-img rounded-0 img-fluid" [src]="item?.url" style="height: 300px;width: 300px">
+          <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+            <ul class="list-unstyled">
+              <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
+              <li><a class="btn btn-success text-white mt-2" (click)="onClick(item?.id)"><i class="far fa-eye"></i></a>
+              </li>
+              <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i
+                class="fas fa-cart-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="h3 text-decoration-none">{{item.name|titlecase}}</p>
+          <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+            <li class="pt-2 mb-2">
+              <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+              <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+              <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+              <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+              <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+            </li>
+          </ul>
+          <ul class="list-unstyled d-flex justify-content-center mb-1">
+            <li>
+              <i class="text-warning fa fa-star"></i>
+              <i class="text-warning fa fa-star"></i>
+              <i class="text-warning fa fa-star"></i>
+              <i class="text-warning fa fa-star"></i>
+              <i class="text-muted fa fa-star"></i>
+            </li>
+          </ul>
+          <p *ngIf="item.disCount.percent == 0" class="text-center mb-0">{{item.price|currency}}</p>
+          <p *ngIf="item.disCount.percent != 0" class="text-left mb-0 d-flex">
+            <span style="font-size: 14px;color: gray;text-decoration-line:line-through">{{item.price|currency}}</span>
+            <span style="margin-left: 5px;color: red">{{item.currentPrice|currency}}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Article -->
+
+
